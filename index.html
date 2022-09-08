@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel='stylesheet' href='style.css'/>
+  <script type="text/javascript" src="script.js"></script> 
+  <meta charset="UTF-8" >
+</head>
+
+<script type="text/javascript">
+    var urls = [
+        "https://youtube.com/",
+        "https://google.com/",
+        "https://facebook.com/",
+        "https://www.instagram.com/",
+    ];
+
+    function goSomewhere() {
+        var url = urls[Math.floor(Math.random()*urls.length)];
+        window.location = url; // redirect
+    }
+</script>
+
+
+
+<body>
+<div id="boxcol2"> 
+    
+</div>
+    <div>
+      <br>  </br>
+      <h2>
+        Bienvenue sur notre site d'évaluation. 
+      </h2>
+    </div>   
+
+    <div id="colOther"> 
+
+      <center>
+        <ul id="navigation">
+          <li> <a href="#" onClick="goSomewhere(); return false;"> Questionnaire  </a></li>
+                  
+		    </ul>
+
+      </center>
+    </div> 
+      <br>  </br>
+
+    <div>
+      <h2>
+        Pour toute information ou commentaire, veuillez nous contacter sur l'adresse mail  <a href="afef.cherni@univ-amu.fr "> afef.cherni@univ-amu.fr </a>
+      </h2>
+    </div>           
+
+
+  
+
+
+</body> 
+</html>
+
