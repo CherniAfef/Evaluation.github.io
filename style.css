@@ -55,7 +55,7 @@ ul {
 li {
  margin-left:150px;
  float:left; /*pour IE*/
-  padding-left: 50px;
+  padding-left: 300px;
 
 }
 ul li a {
